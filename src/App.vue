@@ -11,6 +11,14 @@
       <ais-hits>
         <template v-slot:item="{ item }">
           <h2>{{ item.name }}</h2>
+          <img :src="item.image" align="left" :alt="item.name" />
+          <div class="hit-name">
+            <ais-highlight attribute="name" :hit="item"></ais-highlight>
+          </div>
+          <div class="hit-description">
+            <ais-highlight attribute="description" :hit="item"></ais-highlight>
+          </div>
+          <div class="hit-price">{{ item.price }}</div>
         </template>
       </ais-hits>
       <ais-pagination />
@@ -49,5 +57,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 1em;
+}
+
+.ais-Hits-item img {
+  margin-right: 1em;
+}
+.hit-name {
+  margin-bottom: 0.5em;
+}
+.hit-description {
+  color: #888;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
 }
 </style>
