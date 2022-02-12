@@ -1,24 +1,38 @@
-# ais-ecommerce-demo-app
+<h1 align="center">Welcome to Algolia Search Vue JS 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-## Project setup
-```
+> Testes de implmenetação do algolia instant search com vue js
+
+## Install
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Usage
+
+```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+## Run tests
+
+```sh
+yarn test
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Author
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+👤 **Paulo Henrique**
+
+* Github: [@paulhenrique](https://github.com/paulhenrique)
+* LinkedIn: [@paulhenriquev](https://linkedin.com/in/paulhenriquev)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
