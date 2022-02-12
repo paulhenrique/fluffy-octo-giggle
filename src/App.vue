@@ -39,4 +39,15 @@ body {
   font-family: sans-serif;
   padding: 1em;
 }
+
+.ais-Hits-list {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.ais-InstantSearch {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 1em;
+}
 </style>
