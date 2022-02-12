@@ -5,6 +5,8 @@
 
 > Testes de implmenetação do algolia instant search com vue js
 
+![Alt Text](https://media.giphy.com/media/2yLNN4wTy7Zr8JSXHB/giphy-downsized-large.gif)
+
 ## Install
 
 ```sh
